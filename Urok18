@@ -1,0 +1,26 @@
+class Cat : Animal()
+class Food : Burger()
+class Paper : Book()
+class Boiler : Water()
+class Battery : Charger()
+class Liquid : Fluid()
+class Mug : Glass()
+class Box : Cardboard()
+class Student : University()
+class Employee : Company()
+
+
+fun main(){
+    val cat = Cat()
+    println(cat.name)
+    println(cat.age)
+    println(cat.satiety)
+    println(cat.water)
+
+}
+class Cat{
+    val name: String = "Barsik"
+    val age: Int = 4
+    val satiety: Int = 5
+    val water: Int = 3
+}
