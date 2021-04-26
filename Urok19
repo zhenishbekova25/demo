@@ -1,0 +1,30 @@
+fun main(){
+    val person1 = Employee(name: "Asan", surName: "Usenov", age: 27, experience: 2)
+    val person2 = Employee(name: "Esen", surName: "Kadyrov", age: 30, experience: 10)
+    val person3 :Employee = person1.copy()
+
+
+    println(person1.toString())
+    println(person1.hashCode())
+    println(person1==person2)
+
+}
+
+data class Employee(
+        val name: String,
+        val surName: String,
+        val age: Int,
+        val experience: Int){
+
+}
+
+fun main(){
+    val Tom1 = Book(name: "Voina i mir" avtor: "Tolstoi" year: 1865)
+}
+
+data class Book(
+    val name: String,
+    val avtor: String,
+    val year: Int){
+    
+}
